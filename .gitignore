@@ -1,0 +1,25 @@
+# Python缓存
+__pycache__/
+
+# 虚拟环境
+venv/
+.env
+
+# 模型缓存
+*.bin
+*.pt
+*.pth
+
+# 日志
+logs/
+
+# 配置文件（含API Key）
+config.py
+
+# 数据文件（如果很大）
+data/
+
+# FAISS数据库（可选）
+faiss_db/
+
+config.py
