@@ -1,0 +1,15 @@
+
+
+services:
+  knowledge-qa:
+    build: .
+    container_name: knowledge-qa-system
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./faiss_db:/app/faiss_db
+      - ./data:/app/data
+      - ./uploads:/app/uploads
+    environment:
+      - DASHSCOPE_API_KEY=${DASHSCOPE_API_KEY}
+    restart: unless-stopped

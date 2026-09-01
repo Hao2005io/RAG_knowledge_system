@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+langchain
+langchain-community
+langchain-huggingface
+langchain-text-splitters
+python-multipart
+pydantic
+jinja2
+httpx
+sentence-transformers
+faiss-cpu
+python-docx
+dashscope
